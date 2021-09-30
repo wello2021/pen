@@ -1,8 +1,74 @@
 <DOCTYPE HTML>
   <html>
     <head>
-       <title> my webpage!</title>
+       <title> my web page!</title>
+      <link rel="stylesheet" href="styles.css">
+     </head>
          <body>
-            Hello, World! 
+           <h1>welcome to my page</h1>
+       <h1>Table of Items</h1>
+
+             An unordered list:
+             <ul>
+               <li>item one</li>
+               <li> item two</li>
+               <li> item three</li>
+               </ul>
+
+             An order list:
+               <ol>
+              <li>item one</li>
+              <li>item two</li>
+              <li>item three</li>
+              </ol>
+
+              <img src="shoppingcart.jpg"  width = "20%">
+
+              <table>
+                <h1>Table of Items</h1>
+                <p>we need to know if the customer had received the items or not,
+                   so please fill in the table below:</p>
+                   <style>
+                   table {
+                     border: 2px solid black;
+                     border-collapse: collapse;
+                     width:50%;
+
+                   }
+                   th, td{
+                     border: 1px solid black;
+                     text-align: center;
+                     padding: 5px;
+                   }
+                   th{
+                     background-color: yellow;
+                   }
+
+                   </style>
+                <tr>
+                  <th>Item's Name </th>
+                   <th>Quantity</th>
+                  <th>Price</th>
+                  <th>Customer received</th>
+                </tr>
+                <tr>
+                  <td>milk</td>
+                  <td> 2 Litre</td>
+                  <td>2.5$</td>
+                  <td>yes</td>
+                </tr>
+                <tr>
+                <td>price</td>
+                <td>3 packs</td>
+                <td> 4$</td>
+                <td>yes</td>
+                </tr>
+              </table>
+    <br>          <!----adding form for entering data --->
+<form>
+  <input type="text" placeholder="item's name" name="name of item">
+  <button>submit</button>
+</form>
+
             </body>
             </html>
